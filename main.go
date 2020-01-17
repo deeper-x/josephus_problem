@@ -36,7 +36,7 @@ func Josephus(soldiers []int, skip int) {
 	fmt.Println("\nLast soldier:", r.Value)
 
 	// Output:
-	// deeper-x@local-PC  $ go run main.go
+	// deeper-x@local-PC  (master) $ go run main.go
 	// Starting soldier is: 10, skipping 3
 
 	// 10 20 30 40 50 60 70 >> Removing 40
@@ -45,5 +45,7 @@ func Josephus(soldiers []int, skip int) {
 	// 20 50 60 10 >> Removing 10
 	// 60 20 50 >> Removing 60
 	// 50 20 >> Removing 20
+
+	// Last soldier: 50
 
 }
